@@ -11,9 +11,9 @@ Follow these steps to install and run the project:
    ```bash
    [git clone https://github.com/Aqilzderp/your-repository.git](https://github.com/Aqilzderp/Futsal-Fantasy-App)
 
-2. Link of the GitHub source code
+2. Link of the GitHub source code:
    https://github.com/Aqilzderp/Futsal-Fantasy-App
 
-3. Username and Password for database
+3. Username and Password for database:
    Username: aqil03@live.com
    Password: hoho0303
