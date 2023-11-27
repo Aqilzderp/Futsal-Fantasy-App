@@ -9,7 +9,7 @@ Follow these steps to install and run the project:
 1. Clone the GitHub repository:
 
    ```bash
-   git clone https://github.com/Aqilzderp/your-repository.git
+   [git clone https://github.com/Aqilzderp/your-repository.git](https://github.com/Aqilzderp/Futsal-Fantasy-App)
 
 2. Link of the GitHub source code
    https://github.com/Aqilzderp/Futsal-Fantasy-App
