@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".adminActivity">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <!-- Your existing UI components -->
+
+      <EditText
+          android:id="@+id/editTextName"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:hint="Name" />
+
+      <EditText
+          android:id="@+id/editTextPhone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/editTextName"
+          android:layout_marginBottom="8dp"
+          android:hint="Phone"
+          android:inputType="phone" />
+
+      <EditText
+          android:id="@+id/editTextDate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/editTextPhone"
+          android:layout_marginBottom="16dp"
+          android:hint="Date"
+          android:inputType="date" />
+
+      <EditText
+          android:id="@+id/editTextBookingId"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:hint="Enter Booking ID" />
+
+      <Button
+          android:id="@+id/btnAddBooking"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/editTextDate"
+          android:layout_marginTop="16dp"
+          android:text="Add Booking" />
+
+      <Button
+          android:id="@+id/btnUpdateBooking"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/btnAddBooking"
+          android:layout_marginTop="8dp"
+          android:text="Update Booking" />
+
+      <Button
+          android:id="@+id/btnDeleteBooking"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/btnUpdateBooking"
+          android:layout_marginTop="8dp"
+          android:text="Delete Booking" />
+
+      <!-- Add any additional UI elements as needed -->
+
+      <LinearLayout
+          android:id="@+id/bookingEntry"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:clickable="true"
+          android:onClick="onBookingEntryClick">
+
+        <!-- Contents of the booking entry -->
+
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/textViewBookingInfo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/btnDeleteBooking"
+          android:layout_marginTop="16dp"
+          android:text="Booking Information"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/bookingIdTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:visibility="gone" /> <!-- Hidden TextView to store the booking ID -->
+
+    </LinearLayout>
+  </ScrollView>
+</RelativeLayout>

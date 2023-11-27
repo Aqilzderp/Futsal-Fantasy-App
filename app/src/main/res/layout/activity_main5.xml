@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back4"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/twt1"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="100dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="SHOP"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imgbtn1"
+        android:layout_width="168dp"
+        android:layout_height="189dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="50dp"
+        android:background="@null"
+        android:contentDescription="sn1"
+        android:onClick="sn1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bajuutm" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="163dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imgbtn1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-156dp"
+        android:layout_marginEnd="20dp"
+        android:text="FAS Performance Poloshirt\nMYR 50.00"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/quantity1"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/checkBox1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="45dp"
+        android:hint="Quantity"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="*if you dont buy that shirt please insert 0 on that quantity* TQ!!"></TextView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="401dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="254dp"
+        android:backgroundTint="@color/white"
+        android:text="Purchase"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="401dp"
+        android:layout_height="51dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="@color/red"
+        android:text="Home"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

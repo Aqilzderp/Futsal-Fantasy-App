@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back4"
+    android:layout_height="match_parent"
+    tools:context=".d2">
+
+
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/futsal4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="ABOUT TEAM"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="244dp"
+        android:src="@drawable/futsallogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="372dp"
+        android:text="Welcome to Futsal Fantasy FC, where passion meets skill, and teamwork leads to victory! Established in 2023, we are a dedicated group of futsal enthusiasts based in Malacca, Malaysia. With a shared love for the fast-paced and dynamic sport of futsal, our team has become a force to be reckoned with in the local futsal community.\n\n*Our Mission:*
+At Futsal Fantasy FC, our mission is to promote the spirit of sportsmanship, teamwork, and healthy competition. We strive to create a positive and inclusive environment.
+
+"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bttn"
+        android:layout_width="112dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/white"
+        android:text="Next Page"
+        android:textColor="@color/maroon"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bttn4"
+        android:layout_width="112dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/white"
+        android:text="HOME"
+        android:textColor="@color/maroon"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

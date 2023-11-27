@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    tools:context=".b22">
+
+    <ImageView
+        android:layout_width="409dp"
+        android:layout_height="218dp"
+        android:background="@drawable/futsal4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264dp"
+        android:text="*Achievements:*
+Over the years, we have proudly achieved several milestones, including multiple championship titles in local futsal leagues and tournaments. Our players' dedication, hard work, and unwavering determination have propelled us to success, earning the respect of our competitors and fans alike.\n\n*Our Players:*
+Our team comprises a diverse group of talented individuals, each bringing their unique skills and expertise to the game. young talents showcasing their potential like AMMAR,EDRY, AIMAN, AQIIL, NIK, HAFFIZ. Futsal Fantasy FC is a melting pot of skill and enthusiasm. Our players not only excel on the field but also uphold the values of respect, integrity, and camaraderie off the field."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bttn3"
+        android:layout_width="98dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/white"
+        android:text="Return"
+        android:textColor="@color/maroon"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </Button>
+
+    <Button
+        android:id="@+id/bttn2"
+        android:layout_width="98dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/white"
+        android:text="HOME"
+        android:textColor="@color/maroon"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

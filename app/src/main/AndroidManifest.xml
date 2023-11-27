@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/futsallogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Projectbaru"
+        tools:targetApi="31" >
+        <activity
+            android:name=".adminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin"
+            android:exported="false" />
+        <activity
+            android:name=".Attacker"
+            android:exported="false" />
+        <activity
+            android:name=".booksponsor"
+            android:exported="false" />
+        <activity
+            android:name=".history"
+            android:exported="false" />
+        <activity
+            android:name=".match"
+            android:exported="false" />
+        <activity
+            android:name=".Ab1"
+            android:exported="false" />
+        <activity
+            android:name=".aboutMenu"
+            android:exported="false" />
+        <activity
+            android:name=".checkout"
+            android:exported="false" />
+        <activity
+            android:name=".n2"
+            android:exported="false" />
+        <activity
+            android:name=".n1"
+            android:exported="false" />
+        <activity
+            android:name=".d6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".d44"
+            android:exported="false" />
+        <activity
+            android:name=".Defend"
+            android:exported="false" />
+        <activity
+            android:name=".b22"
+            android:exported="false" />
+        <activity
+            android:name=".d5"
+            android:exported="false" />
+        <activity
+            android:name=".d2"
+            android:exported="false" />
+        <activity
+            android:name=".d1"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

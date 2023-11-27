@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/futsal1"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/loginscrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="Registration"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/futsallogo"
+
+        />
+
+
+    <EditText
+        android:id="@+id/fstTxt"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/red_border"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:hint="Email"
+        android:drawablePadding="8dp"></EditText>
+    <EditText
+        android:id="@+id/txtPwd"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:background="@drawable/red_border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:hint="Password"
+        android:drawablePadding="8dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/newbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:textColor="@color/maroon"
+        android:text="Login" />
+    <TextView
+        android:id="@+id/lnkLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Already Registered? Login here"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:onClick="test"/>
+</LinearLayout>

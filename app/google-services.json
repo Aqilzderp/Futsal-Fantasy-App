@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "973531259383",
+    "firebase_url": "https://fantasyfutsal-9fdca-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fantasyfutsal-9fdca",
+    "storage_bucket": "fantasyfutsal-9fdca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973531259383:android:59a003a249309390a70ef2",
+        "android_client_info": {
+          "package_name": "com.example.projectbaru"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG-CR38bFMl0B--FC6Q9q6jC-a_ij74iA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
